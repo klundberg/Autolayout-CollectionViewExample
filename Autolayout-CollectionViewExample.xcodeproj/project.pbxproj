@@ -16,16 +16,6 @@
 		799D59A01AFD1A0600470601 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 799D599E1AFD1A0600470601 /* README.md */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		799D598C1AFD14B400470601 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 799D596E1AFD14B400470601 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 799D59751AFD14B400470601;
-			remoteInfo = AutolayoutTest;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		799D59761AFD14B400470601 /* Autolayout-CollectionViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Autolayout-CollectionViewExample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		799D597A1AFD14B400470601 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -34,20 +24,12 @@
 		799D59801AFD14B400470601 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		799D59821AFD14B400470601 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		799D59851AFD14B400470601 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		799D598B1AFD14B400470601 /* Autolayout-CollectionViewExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Autolayout-CollectionViewExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		799D599D1AFD1A0600470601 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		799D599E1AFD1A0600470601 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		799D59731AFD14B400470601 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		799D59881AFD14B400470601 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -71,7 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				799D59761AFD14B400470601 /* Autolayout-CollectionViewExample.app */,
-				799D598B1AFD14B400470601 /* Autolayout-CollectionViewExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,24 +98,6 @@
 			productReference = 799D59761AFD14B400470601 /* Autolayout-CollectionViewExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		799D598A1AFD14B400470601 /* Autolayout-CollectionViewExampleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 799D59981AFD14B400470601 /* Build configuration list for PBXNativeTarget "Autolayout-CollectionViewExampleTests" */;
-			buildPhases = (
-				799D59871AFD14B400470601 /* Sources */,
-				799D59881AFD14B400470601 /* Frameworks */,
-				799D59891AFD14B400470601 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				799D598D1AFD14B400470601 /* PBXTargetDependency */,
-			);
-			name = "Autolayout-CollectionViewExampleTests";
-			productName = AutolayoutTestTests;
-			productReference = 799D598B1AFD14B400470601 /* Autolayout-CollectionViewExampleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -146,10 +109,6 @@
 				TargetAttributes = {
 					799D59751AFD14B400470601 = {
 						CreatedOnToolsVersion = 6.3.1;
-					};
-					799D598A1AFD14B400470601 = {
-						CreatedOnToolsVersion = 6.3.1;
-						TestTargetID = 799D59751AFD14B400470601;
 					};
 				};
 			};
@@ -167,7 +126,6 @@
 			projectRoot = "";
 			targets = (
 				799D59751AFD14B400470601 /* Autolayout-CollectionViewExample */,
-				799D598A1AFD14B400470601 /* Autolayout-CollectionViewExampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -184,13 +142,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		799D59891AFD14B400470601 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -204,22 +155,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		799D59871AFD14B400470601 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		799D598D1AFD14B400470601 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 799D59751AFD14B400470601 /* Autolayout-CollectionViewExample */;
-			targetProxy = 799D598C1AFD14B400470601 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		799D597F1AFD14B400470601 /* Main.storyboard */ = {
@@ -328,7 +264,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = AutolayoutTest/Info.plist;
+				INFOPLIST_FILE = "Autolayout-CollectionViewExample/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "Autolayout-CollectionViewExample";
@@ -339,44 +275,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = AutolayoutTest/Info.plist;
+				INFOPLIST_FILE = "Autolayout-CollectionViewExample/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "Autolayout-CollectionViewExample";
-			};
-			name = Release;
-		};
-		799D59991AFD14B400470601 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = AutolayoutTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "Autolayout-CollectionViewExampleTests";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutolayoutTest.app/AutolayoutTest";
-			};
-			name = Debug;
-		};
-		799D599A1AFD14B400470601 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = AutolayoutTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "Autolayout-CollectionViewExampleTests";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutolayoutTest.app/AutolayoutTest";
 			};
 			name = Release;
 		};
@@ -397,15 +299,6 @@
 			buildConfigurations = (
 				799D59961AFD14B400470601 /* Debug */,
 				799D59971AFD14B400470601 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		799D59981AFD14B400470601 /* Build configuration list for PBXNativeTarget "Autolayout-CollectionViewExampleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				799D59991AFD14B400470601 /* Debug */,
-				799D599A1AFD14B400470601 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
